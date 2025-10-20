@@ -1,6 +1,3 @@
-# map-layer-caption-injector
-A node js script that injects captions and sublayer with matching ids from layers.json and map.json configs into two separate files.
-
 # Map Layer Caption Injector
 
 A Node.js tool that automatically injects captions and sublayer information from a layers configuration file into map configuration files. Perfect for GIS applications, mapping services, and any project that needs to synchronize layer metadata across different configuration files.
