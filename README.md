@@ -1,19 +1,19 @@
 # Map Layer Caption Injector
 
-A Node.js tool that automatically injects captions and sublayer information from a layers configuration file into map configuration files. Perfect for GIS applications, mapping services, and any project that needs to synchronize layer metadata across different configuration files.
+A Node.js tool that automatically injects captions and sublayer information from a layers configuration file into map configuration files. Perfect for mapping services, and any project that needs to synchronize layer metadata across different configuration files.
 
 ## Features
 
-- 🔄 **Automatic Caption Injection**: Matches layer IDs between map and layers files and injects captions
-- 🌳 **Nested Group Support**: Recursively processes nested group structures
-- 📁 **Sublayer Processing**: Handles complex layer groups with sublayers (e.g., road types)
-- 🎯 **Smart Caption Logic**:
+-  **Automatic Caption Injection**: Matches layer IDs between map and layers files and injects captions
+-  **Nested Group Support**: Recursively processes nested group structures
+-  **Sublayer Processing**: Handles complex layer groups with sublayers (e.g., road types)
+-  **Smart Caption Logic**:
   - Uses `layersInfo` captions for groups with 2+ sublayers
   - Uses main object caption for single sublayers
   - Skips empty captions entirely
-- 📊 **Visual Tree Output**: Generates folder-style tree diagrams showing the layer structure
-- ⚡ **Batch Processing**: Process multiple map:layers pairs in one command
-- 🔧 **Flexible Input**: Supports WMS, WFS, Vector, and WFST layers
+-  **Visual Tree Output**: Generates folder-style tree diagrams showing the layer structure
+-  **Batch Processing**: Process multiple map:layers pairs in one command
+-  **Flexible Input**: Supports WMS, WFS, Vector, and WFST layers
 
 ## Requirements
 
@@ -211,4 +211,4 @@ If you encounter any issues or have questions, please open an issue on GitHub.
 
 ---
 
-**Made with ❤️ for the GIS community**
+**Made for the GIS community**
